@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/0207/app/src/main/res/layout/graph_layout.xml" value="0.3609375" />
+        <entry key="..\:/0207/app/src/main/res/layout/graphviewitem.xml" value="0.3609375" />
+        <entry key="..\:/0214/app/src/main/res/layout/activity_main.xml" value="0.270703125" />
+        <entry key="..\:/0214/app/src/main/res/layout/graph_layout.xml" value="0.159375" />
+        <entry key="..\:/0214/app/src/main/res/layout/graphviewitem.xml" value="0.2390625" />
+        <entry key="..\:/0214/app/src/main/res/layout/recycler_layout.xml" value="0.26015625" />
+        <entry key="..\:/0214/app/src/main/res/layout/recyclerviewitem.xml" value="0.26015625" />
+        <entry key="..\:/0214/app/src/main/res/layout/selection_item.xml" value="0.26015625" />
+        <entry key="..\:/0214/app/src/main/res/layout/selection_layout.xml" value="0.24742269014270782" />
+        <entry key="..\:/0216/app/src/main/res/layout/activity_main.xml" value="0.1359375" />
+        <entry key="..\:/0216/app/src/main/res/layout/graph_layout.xml" value="0.1" />
+        <entry key="..\:/0216/app/src/main/res/layout/graphviewitem.xml" value="0.24742269014270782" />
+        <entry key="..\:/0216/app/src/main/res/layout/selection_layout.xml" value="0.270703125" />
+        <entry key="..\:/0220/app/src/main/res/layout/activity_main.xml" value="0.211328125" />
+        <entry key="..\:/0220/app/src/main/res/layout/graph_layout.xml" value="0.270703125" />
+        <entry key="..\:/0220/app/src/main/res/layout/graphviewitem.xml" value="0.2177319673255829" />
+        <entry key="..\:/0220/app/src/main/res/layout/recycler_layout.xml" value="0.211328125" />
+        <entry key="..\:/0220/app/src/main/res/layout/selection_.xml" value="0.270703125" />
+        <entry key="..\:/0220/app/src/main/res/layout/selection_item.xml" value="0.270703125" />
+        <entry key="..\:/0220/app/src/main/res/layout/selection_layout.xml" value="0.270703125" />
+        <entry key="..\:/0223/app/src/main/res/drawable/border_line.xml" value="0.173046875" />
+        <entry key="..\:/0223/app/src/main/res/drawable/button_background.xml" value="0.173046875" />
+        <entry key="..\:/0223/app/src/main/res/drawable/button_background2.xml" value="0.173046875" />
+        <entry key="..\:/0223/app/src/main/res/drawable/ic_launcher_background.xml" value="0.173046875" />
+        <entry key="..\:/0223/app/src/main/res/drawable/layout_selector.xml" value="0.173046875" />
+        <entry key="..\:/0223/app/src/main/res/drawable/list_background.xml" value="0.173046875" />
+        <entry key="..\:/0223/app/src/main/res/drawable/seekbar.xml" value="0.2828125" />
+        <entry key="..\:/0223/app/src/main/res/drawable/seekbar_thumb.xml" value="0.2828125" />
+        <entry key="..\:/0223/app/src/main/res/layout/activity_main.xml" value="0.32659795098837435" />
+        <entry key="..\:/0223/app/src/main/res/layout/graph_layout.xml" value="0.270703125" />
+        <entry key="..\:/0223/app/src/main/res/layout/graphviewitem.xml" value="0.270703125" />
+        <entry key="..\:/0223/app/src/main/res/layout/recycler_layout.xml" value="0.270703125" />
+        <entry key="..\:/0223/app/src/main/res/layout/recyclerviewitem.xml" value="0.270703125" />
+        <entry key="..\:/0223/app/src/main/res/layout/selection_button.xml" value="0.16640625" />
+        <entry key="..\:/0223/app/src/main/res/layout/selection_item.xml" value="0.158984375" />
+        <entry key="..\:/0223/app/src/main/res/layout/selection_layout.xml" value="0.32659795098837435" />
+        <entry key="..\:/0227/app/src/main/res/layout/selection_item.xml" value="0.270703125" />
+        <entry key="..\:/0227/app/src/main/res/layout/selection_layout.xml" value="0.270703125" />
+        <entry key="..\:/0228/app/src/main/res/layout/activity_main.xml" value="0.270703125" />
+        <entry key="..\:/0228/app/src/main/res/layout/graph_layout.xml" value="0.270703125" />
+        <entry key="..\:/0228/app/src/main/res/layout/graphviewitem.xml" value="0.270703125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/graph_layout.xml" value="0.4244791666666667" />
+        <entry key="app/src/main/res/layout/graphviewitem.xml" value="0.4244791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

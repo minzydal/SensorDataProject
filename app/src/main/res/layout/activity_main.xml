@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Data Analysis"
+            android:fontFamily="@font/cookierun"
+            android:textColor="@color/black"
+            android:textSize="25dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlebar"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:id="@+id/stopbtn"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/cookierun"
+            android:text="Stop"
+            android:textColor="@color/black" />
+
+
+        <Button
+            android:id="@+id/graphbtn"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/stopbtn"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/cookierun"
+            android:text="Graph"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/datacapture"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/graphbtn"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/cookierun"
+            android:text="Data Capture"
+            android:textColor="@color/black"/>
+
+        <ImageButton
+            android:id="@+id/rewindDouble"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="17dp"
+            android:layout_toRightOf="@id/graphbtn"
+            android:background="@drawable/button_background"
+            android:src="@drawable/rewind_double"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/rewind"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/rewindDouble"
+            android:background="@drawable/button_background"
+            android:src="@drawable/rewind"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/rewind"
+            android:background="@drawable/button_background"
+            android:src="@drawable/pause"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/pause"
+            android:background="@drawable/button_background"
+            android:src="@drawable/play"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/forward"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/play"
+            android:background="@drawable/button_background"
+            android:src="@drawable/fast_forward"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="915dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/progressbar_background"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="#FFEF92"
+        android:visibility="gone">
+
+        <SeekBar
+            android:id="@+id/progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="560dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:progress="0"
+            android:progressDrawable="@drawable/seekbar"
+            android:thumb="@drawable/seekbar_thumb"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/progress_time"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/progressbar_background"
+            android:background="#FFEF92"
+            android:gravity="center"
+            android:text="00:00:00 / 00:00:00"
+            android:fontFamily="@font/cookierun"
+            android:textSize="15dp"
+            android:visibility="gone"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>
